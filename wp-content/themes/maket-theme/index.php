@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="icon" href="img/favicon.png">
 		<?php wp_head() ?>
-		<title>Макетная мастерская</title>
+		<title><?php bloginfo( 'description'  ); ?></title>
 	</head>
 	<body class="body">
 		<!-- Кнопка вызова меню -->
