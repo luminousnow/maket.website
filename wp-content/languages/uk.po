@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-18 15:42:22+0000\n"
+"PO-Revision-Date: 2021-05-23 07:44:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -111,6 +111,11 @@ msgstr "Невдала перевірка SSL."
 msgid "HTTPS request failed."
 msgstr "HTTPS запит невдалий."
 
+#. translators: 1: $l10n, 2: wp_add_inline_script()
+#: wp-includes/class.wp-scripts.php:492
+msgid "The %1$s parameter must be an array. To pass arbitrary data to scripts, use the %2$s function instead."
+msgstr "Параметр %1$s повинен бути масивом. Для передачі довільних даних в скрипти використовуйте функцію %2$s."
+
 #: wp-includes/query.php:909
 msgid "https://developer.wordpress.org/reference/functions/is_main_query/"
 msgstr "https://developer.wordpress.org/reference/functions/is_main_query/"
@@ -124,14 +129,44 @@ msgstr "Фільтр по категорії"
 msgid "https://wordpress.org/support/article/why-should-i-use-https/"
 msgstr "https://wordpress.org/support/article/why-should-i-use-https/"
 
+#: wp-includes/class-wp-fatal-error-handler.php:196
+msgid "Learn more about troubleshooting WordPress."
+msgstr "Дізнайтеся більше про усунення неполадок WordPress."
+
 #. translators: Documentation about troubleshooting.
 #: wp-includes/class-wp-fatal-error-handler.php:195
 msgid "https://wordpress.org/support/article/faq-troubleshooting/"
 msgstr "https://wordpress.org/support/article/faq-troubleshooting/"
 
+#: wp-includes/user.php:4281
+msgid "The confirmation key has expired for this personal data request."
+msgstr "Термін дії ключа підтвердження для цього запиту на особисті дані минув."
+
+#: wp-includes/user.php:4277
+msgid "The confirmation key is invalid for this personal data request."
+msgstr "Ключ підтвердження для цього запиту на особисті дані невірний."
+
+#: wp-includes/user.php:4258
+msgid "The confirmation key is missing from this personal data request."
+msgstr "Ключ підтвердження в цьому запиті на особисті дані відсутній."
+
+#: wp-includes/user.php:4254
+msgid "This personal data request has expired."
+msgstr "Термін дії цього запиту на особисті дані минув."
+
+#: wp-includes/user.php:4062 wp-includes/user.php:4250
+#: wp-admin/includes/privacy-tools.php:23
+#: wp-admin/includes/privacy-tools.php:52
+msgid "Invalid personal data request."
+msgstr "Невірний запит на особисті дані."
+
 #: wp-includes/user.php:3973
 msgid "Invalid request status."
 msgstr "Невірний статус запиту."
+
+#: wp-includes/class-wp-application-passwords.php:78
+msgid "Each application name should be unique."
+msgstr "Назва кожного додатку має бути унікальною."
 
 #. translators: 1: Parameter, 2: List of valid values.
 #: wp-includes/rest-api.php:1971
@@ -143,9 +178,25 @@ msgstr "%1$s не належить до %2$l."
 msgid "%1$s is not %2$s."
 msgstr "%1$s не відповідає %2$s."
 
+#: wp-includes/cron.php:154
+msgid "A duplicate event already exists."
+msgstr "Дублікат події вже існує."
+
 #: wp-includes/cron.php:97 wp-includes/cron.php:276
 msgid "A plugin prevented the event from being scheduled."
 msgstr "Плагін завадив запланувати подію."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1369
+msgid "Crop arguments."
+msgstr "Аргументи обрізання."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1364
+msgid "Crop type."
+msgstr "Тип обрізання."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1353
+msgid "Angle to rotate clockwise in degrees."
+msgstr "Кут обертання за годинниковою стрілкою в градусах."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1346
 msgid "Rotation arguments."
@@ -162,6 +213,22 @@ msgstr "Обертання"
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1330
 msgid "Image edit."
 msgstr "Редагування зображення."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:431
+msgid "Sorry, you are not allowed to delete this application password."
+msgstr "На жаль, вам не дозволено видалити пароль цього додатку."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:302
+msgid "Sorry, you are not allowed to edit this application password."
+msgstr "На жаль, вам не дозволено редагувати пароль цього додатку."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:175
+msgid "Sorry, you are not allowed to read this application password."
+msgstr "На жаль, вам не дозволено читати цей пароль додатку."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:122
+msgid "Sorry, you are not allowed to list application passwords for this user."
+msgstr "На жаль, вам не дозволено переглядати паролі додатків цього користувача."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3002
 msgid "Term IDs."

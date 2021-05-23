@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="icon" href="img/favicon.png">
+		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.png">
 		<?php wp_head() ?>
 		<title><?php bloginfo( 'description'  ); ?></title>
 	</head>
@@ -21,7 +21,7 @@
 						<div class="col-5 col-sm-3 col-lg-3">
 							<a href="#" class="header-logo">
 								<!-- <div class="header-logo__img"></div> -->
-								<img src="img/header-footer/header-logo.png" class="header-logo__img" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/header-footer/header-logo.png" class="header-logo__img" alt="">
 							</a>
 						</div>
 						<!-- /.col-3 -->
@@ -29,7 +29,7 @@
 							<div class="row">
 								<div class="col-12 col-lg-7">
 									<div class="header-adress justify-content-center">
-											<img src="img/header-footer/header-label.png" class="header-adress__icon" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/header-footer/header-label.png" class="header-adress__icon" alt="">
 										<!-- /.adress-icon -->
 										<div class="header-adress__text">
 											г. Москва,<br>
@@ -42,7 +42,7 @@
 								<!-- /.col-4 -->
 								<div class="col-12 col-lg-5">
 									<div class="header-adress header-adress_email justify-content-center">
-											<img src="img/header-footer/header-mail.png" class="header-adress__icon header-mail__icon" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/header-footer/header-mail.png" class="header-adress__icon header-mail__icon" alt="">
 										<!-- /.adress-icon -->
 										<div class="header-adress__text header-mail__text">
 											<a href="mailto:info@maketstorent.ru">info@maketstorent.ru</a>
@@ -121,7 +121,7 @@
 
 										<div class="advantages-block">
 											<div class="advantages-block__img">
-												<img src="img/main/img-1.png" alt="">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/main/img-1.png" alt="">
 											</div>
 											<!-- /.advantages-block__img -->
 											<div class="advantages-block__text">
@@ -133,7 +133,7 @@
 
 										<div class="advantages-block">
 											<div class="advantages-block__img">
-												<img src="img/main/img-2.png" alt="">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/main/img-2.png" alt="">
 											</div>
 											<!-- /.advantages-block__img -->
 											<div class="advantages-block__text">
@@ -145,7 +145,7 @@
 
 										<div class="advantages-block">
 											<div class="advantages-block__img">
-												<img src="img/main/img-3.png" alt="">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/main/img-3.png" alt="">
 											</div>
 											<!-- /.advantages-block__img -->
 											<div class="advantages-block__text">
@@ -160,7 +160,7 @@
 									<div class="col-12 col-md-6">
 										<div class="advantages-block">
 											<div class="advantages-block__img">
-												<img src="img/main/img-4.png" alt="">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/main/img-4.png" alt="">
 											</div>
 											<!-- /.advantages-block__img -->
 											<div class="advantages-block__text">
@@ -172,7 +172,7 @@
 
 										<div class="advantages-block">
 											<div class="advantages-block__img">
-												<img src="img/main/img-5.png" alt="">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/main/img-5.png" alt="">
 											</div>
 											<!-- /.advantages-block__img -->
 											<div class="advantages-block__text">
@@ -184,7 +184,7 @@
 
 										<div class="advantages-block advantages-block_last">
 											<div class="advantages-block__img">
-												<img src="img/main/img-6.png" alt="">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/main/img-6.png" alt="">
 											</div>
 											<!-- /.advantages-block__img -->
 											<div class="advantages-block__text">
@@ -246,12 +246,12 @@
 			</div>
 			<!-- /.section-title -->
 			<div class="container">
-				<img src="img/materials/materials-img.png" class="materials-img lego-img" alt="">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/materials/materials-img.png" class="materials-img lego-img" alt="">
 				<!-- Слайдер в секции -->
 				<div class="slider">
 					<div class="slider-block">
 						<div class="slider-block__img">
-							<img src="img/materials/materials-slide-1/slide-1-1img.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/materials/materials-slide-1/slide-1-1img.png" alt="">
 						</div>
 						<!-- /.slider-slider__img -->
 						<div class="slider-block__name">
@@ -270,7 +270,7 @@
 					<!-- /.slider-block -->
 					<div class="slider-block">
 						<div class="slider-block__img">
-							<img src="img/materials/materials-slide-2/slide-2-1img.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/materials/materials-slide-2/slide-2-1img.png" alt="">
 						</div>
 						<!-- /.slider-slider__img -->
 						<div class="slider-block__name">
@@ -289,7 +289,7 @@
 					<!-- /.slider-block -->
 					<div class="slider-block">
 						<div class="slider-block__img">
-							<img src="img/materials/materials-slide-3/slide-3-1img.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/materials/materials-slide-3/slide-3-1img.png" alt="">
 						</div>
 						<!-- /.slider-slider__img -->
 						<div class="slider-block__name">
@@ -308,7 +308,7 @@
 					<!-- /.slider-block -->
 					<div class="slider-block">
 						<div class="slider-block__img">
-							<img src="img/materials/materials-slide-4/slide-4-1img.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/materials/materials-slide-4/slide-4-1img.png" alt="">
 						</div>
 						<!-- /.slider-slider__img -->
 						<div class="slider-block__name">
@@ -327,7 +327,7 @@
 					<!-- /.slider-block -->
 					<div class="slider-block">
 						<div class="slider-block__img">
-							<img src="img/materials/materials-slide-3/slide-3-1img.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/materials/materials-slide-3/slide-3-1img.png" alt="">
 						</div>
 						<!-- /.slider-slider__img -->
 						<div class="slider-block__name">
@@ -358,12 +358,12 @@
 			</div>
 			<!-- /.section-title -->
 			<div class="container">
-				<img src="img/tools/tools-img.png" class="tools-img lego-img" alt="">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/tools/tools-img.png" class="tools-img lego-img" alt="">
 			<!-- Слайдер в секции -->
 				<div class="slider">
 					<div class="slider-block">
 						<div class="slider-block__img">
-							<img src="img/tools/tools-slide-1/slide-1-1img.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/tools/tools-slide-1/slide-1-1img.png" alt="">
 						</div>
 						<!-- /.slider-slider__img -->
 						<div class="slider-block__name">Резак 18 мм</div>
@@ -378,7 +378,7 @@
 					<!-- /.slider-block -->
 					<div class="slider-block">
 						<div class="slider-block__img">
-							<img src="img/tools/tools-slide-2/slide-2-1img.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/tools/tools-slide-2/slide-2-1img.png" alt="">
 						</div>
 						<!-- /.slider-slider__img -->
 						<div class="slider-block__name">Реказ 9 мм</div>
@@ -393,7 +393,7 @@
 					<!-- /.slider-block -->
 					<div class="slider-block">
 						<div class="slider-block__img">
-							<img src="img/tools/tools-slide-3/slide-3-1img.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/tools/tools-slide-3/slide-3-1img.png" alt="">
 						</div>
 						<!-- /.slider-slider__img -->
 						<div class="slider-block__name">Коврик для резки</div>
@@ -408,7 +408,7 @@
 					<!-- /.slider-block -->
 					<div class="slider-block">
 						<div class="slider-block__img">
-							<img src="img/tools/tools-slide-4/slide-4-1img.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/tools/tools-slide-4/slide-4-1img.png" alt="">
 						</div>
 						<!-- /.slider-slider__img -->
 						<div class="slider-block__name">Линейка</div>
@@ -423,7 +423,7 @@
 					<!-- /.slider-block -->
 					<div class="slider-block">
 						<div class="slider-block__img">
-							<img src="img/tools/tools-slide-3/slide-3-1img.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/tools/tools-slide-3/slide-3-1img.png" alt="">
 						</div>
 						<!-- /.slider-slider__img -->
 						<div class="slider-block__name">Коврик для резки</div>
@@ -450,12 +450,12 @@
 			</div>
 			<!-- /.section-title -->
 			<div class="container">
-				<img src="img/prototyping/prototyping-img.png" class="prototyping-img lego-img" alt="">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/prototyping/prototyping-img.png" class="prototyping-img lego-img" alt="">
 			<!-- Слайдер в секции -->
 				<div class="slider">
 					<div class="slider-block">
 						<div class="slider-block__img">
-							<img src="img/prototyping/prototyping-slide-1/slide-1-1img.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/prototyping/prototyping-slide-1/slide-1-1img.png" alt="">
 						</div>
 						<!-- /.slider-slider__img -->
 						<div class="slider-block__name">
@@ -475,7 +475,7 @@
 					<!-- /.slider-block -->
 					<div class="slider-block">
 						<div class="slider-block__img">
-							<img src="img/prototyping/prototyping-slide-2/slide-2-1img.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/prototyping/prototyping-slide-2/slide-2-1img.png" alt="">
 						</div>
 						<!-- /.slider-slider__img -->
 						<div class="slider-block__name">
@@ -495,7 +495,7 @@
 					<!-- /.slider-block -->
 					<div class="slider-block">
 						<div class="slider-block__img">
-							<img src="img/prototyping/prototyping-slide-3/slide-3-1img.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/prototyping/prototyping-slide-3/slide-3-1img.png" alt="">
 						</div>
 						<!-- /.slider-slider__img -->
 						<div class="slider-block__name">
@@ -515,7 +515,7 @@
 					<!-- /.slider-block -->
 					<div class="slider-block">
 						<div class="slider-block__img">
-							<img src="img/prototyping/prototyping-slide-4/slide-4-1img.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/prototyping/prototyping-slide-4/slide-4-1img.png" alt="">
 						</div>
 						<!-- /.slider-slider__img -->
 						<div class="slider-block__name">
@@ -535,7 +535,7 @@
 					<!-- /.slider-block -->
 					<div class="slider-block">
 						<div class="slider-block__img">
-							<img src="img/prototyping/prototyping-slide-3/slide-3-1img.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/prototyping/prototyping-slide-3/slide-3-1img.png" alt="">
 						</div>
 						<!-- /.slider-slider__img -->
 						<div class="slider-block__name">
@@ -616,7 +616,7 @@
 						<div class="col-12 col-lg-3">
 							<div class="manual-block">
 								<div class="manual-block__img">
-									<img src="img/manual/manual-img-1.png" alt="">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/manual/manual-img-1.png" alt="">
 								</div>
 								<!-- /.manual-img -->
 								<div class="manual-block__text">
@@ -629,13 +629,13 @@
 								<!-- /.manual-text -->
 							</div>
 							<!-- /.manual-block -->
-							<img src="img/manual/manual-arrow.png" alt="" class="manual-arrow manual-arrow_1">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/manual/manual-arrow.png" alt="" class="manual-arrow manual-arrow_1">
 						</div>
 						<!-- /.col-3 -->
 						<div class="col-12 col-lg-3">
 							<div class="manual-block">
 								<div class="manual-block__img">
-									<img src="img/manual/manual-img-2.png" alt="">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/manual/manual-img-2.png" alt="">
 								</div>
 								<!-- /.manual-img -->
 								<div class="manual-block__text">
@@ -646,13 +646,13 @@
 								<!-- /.manual-text -->
 							</div>
 							<!-- /.manual-block -->
-							<img src="img/manual/manual-arrow.png" alt="" class="manual-arrow manual-arrow_2">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/manual/manual-arrow.png" alt="" class="manual-arrow manual-arrow_2">
 						</div>
 						<!-- /.col-3 -->
 						<div class="col-12 col-lg-3">
 							<div class="manual-block">
 								<div class="manual-block__img">
-									<img src="img/manual/manual-img-3.png" alt="">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/manual/manual-img-3.png" alt="">
 								</div>
 								<!-- /.manual-img -->
 								<div class="manual-block__text">
@@ -665,13 +665,13 @@
 								<!-- /.manual-text -->
 							</div>
 							<!-- /.manual-block -->
-							<img src="img/manual/manual-arrow.png" alt="" class="manual-arrow manual-arrow_3">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/manual/manual-arrow.png" alt="" class="manual-arrow manual-arrow_3">
 						</div>
 						<!-- /.col-3 -->
 						<div class="col-12 col-lg-3">
 							<div class="manual-block manual-block_last">
 								<div class="manual-block__img">
-									<img src="img/manual/manual-img-4.png" alt="">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/manual/manual-img-4.png" alt="">
 								</div>
 								<!-- /.manual-img -->
 								<div class="manual-block__text">
@@ -703,7 +703,7 @@
 					<div class="col-12 col-md-6 col-xl-3">
 						<div class="delivery-block">
 							<div class="delivery-block__img">
-								<img src="img/delivery/delivery-img-1.png" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/delivery/delivery-img-1.png" alt="">
 							</div>
 							<!-- /.delivery-block__img -->
 							<div class="delivery-block__text">
@@ -718,7 +718,7 @@
 					<div class="col-12 col-md-6 col-xl-3">
 						<div class="delivery-block">
 							<div class="delivery-block__img">
-								<img src="img/delivery/delivery-img-2.png" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/delivery/delivery-img-2.png" alt="">
 							</div>
 							<!-- /.delivery-block__img -->
 							<div class="delivery-block__text">
@@ -733,7 +733,7 @@
 					<div class="col-12 col-md-6 col-xl-3">
 						<div class="delivery-block delivery-block_last1">
 							<div class="delivery-block__img">
-								<img src="img/delivery/delivery-img-3.png" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/delivery/delivery-img-3.png" alt="">
 							</div>
 							<!-- /.delivery-block__img -->
 							<div class="delivery-block__text">
@@ -748,7 +748,7 @@
 					<div class="col-12 col-md-6 col-xl-3">
 						<div class="delivery-block delivery-block_last2">
 							<div class="delivery-block__img">
-								<img src="img/delivery/delivery-img-4.png" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/delivery/delivery-img-4.png" alt="">
 							</div>
 							<!-- /.delivery-block__img -->
 							<div class="delivery-block__text">
@@ -775,7 +775,7 @@
 						<div class="col-12 col-md-3">
 							<div class="contacts-block">
 								<div class="contacts-block__img">
-									<img src="img/contacts/contacts-mail.png" alt="">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/contacts/contacts-mail.png" alt="">
 								</div>
 								<!-- /.contacts-block__img -->
 								<div class="contacts-block__text">
@@ -789,7 +789,7 @@
 						<div class="col-12 col-md-3">
 							<div class="contacts-block">
 								<div class="contacts-block__img">
-									<img src="img/contacts/contacts-phone.png" alt="">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/contacts/contacts-phone.png" alt="">
 								</div>
 								<!-- /.contacts-block__img -->
 								<div class="contacts-block__text">
@@ -803,7 +803,7 @@
 						<div class="col-12 col-md-3">
 							<div class="contacts-block contacts-block_last">
 								<div class="contacts-block__img">
-									<img src="img/contacts/contacts-clock.png" alt="">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/contacts/contacts-clock.png" alt="">
 								</div>
 								<!-- /.contacts-block__img -->
 								<div class="contacts-block__text">
@@ -842,7 +842,7 @@
 						<div class="col-5 col-sm-3 col-lg-3">
 							<a href="#" class="footer-logo">
 								<!-- <div class="footer-logo__img"></div> -->
-								<img src="img/header-footer/header-logo.png" class="header-logo__img" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/header-footer/header-logo.png" class="header-logo__img" alt="">
 							</a>
 						</div>
 						<!-- /.col-3 -->
@@ -850,7 +850,7 @@
 							<div class="row">
 								<div class="col-12 col-lg-7">
 									<div class="footer-adress">
-											<img src="img/header-footer/header-label.png" class="header-adress__icon" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/header-footer/header-label.png" class="header-adress__icon" alt="">
 										<!-- /.adress-icon -->
 										<div class="footer-adress__text">
 											г. Москва,<br>
@@ -863,7 +863,7 @@
 								<!-- /.col-4 -->
 								<div class="col-12 col-lg-5">
 									<div class="footer-adress footer-adress_email ">
-											<img src="img/header-footer/header-mail.png" class="footer-adress__icon footer-mail__icon" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/header-footer/header-mail.png" class="footer-adress__icon footer-mail__icon" alt="">
 										<!-- /.adress-icon -->
 										<div class="footer-adress__text footer-mail__text">
 											<a href="mailto:info@maketstorent.ru">info@maketstorent.ru</a>
