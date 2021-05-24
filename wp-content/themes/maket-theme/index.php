@@ -694,6 +694,29 @@
 			<!-- /.section-title -->
 			<div class="container">
 				<div class="row">
+				<?php
+				global $post;
+
+					$myposts = get_posts([ 
+						'numberposts' => 5,
+						'offset'      => 1,
+						'category'    => 1
+					]);
+
+					if( $myposts ){
+						foreach( $myposts as $post ){
+							setup_postdata( $post );
+							?>
+							<!-- Вывода постов, функции цикла: the_title() и т.д. -->
+							<?php 
+						}
+					} else {
+						// Постов не найдено
+					}
+
+					wp_reset_postdata(); // Сбрасываем $post
+?>
+
 					<div class="col-12 col-md-6 col-xl-3">
 						<div class="delivery-block">
 							<div class="delivery-block__img">
