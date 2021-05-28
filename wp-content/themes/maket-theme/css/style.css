@@ -52,7 +52,6 @@ button {
 .form-textarea {
   margin-bottom: 23px;
   resize: none;
-  max-height: 100px;
 }
 
 .form-button {

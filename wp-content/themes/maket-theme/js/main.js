@@ -110,23 +110,23 @@ $(document).ready(function () {
 
   $('.input-phone').mask('+7 (999) 999-9999', { autoclear: false });
 
-  $('form').submit(function (event) {
-    event.preventDefault();
-    $.ajax({
-      type: 'POST',
-      url: 'mailer/smart.php',
-      data: $(this).serialize(),
-    }).done(function () {
-      $(this).find('input').val('');
-      $('.overlay').hide();
-      $('.overlay-message').show();
-      setTimeout(function () {
-        $('.overlay-message').hide();
-      }, 3000);
-      $('form').trigger('reset');
-    });
-    return false;
-  });
+  // $('form').submit(function (event) {
+  //   event.preventDefault();
+  //   $.ajax({
+  //     type: 'POST',
+  //     url: 'mailer/smart.php',
+  //     data: $(this).serialize(),
+  //   }).done(function () {
+  //     $(this).find('input').val('');
+  //     $('.overlay').hide();
+  //     $('.overlay-message').show();
+  //     setTimeout(function () {
+  //       $('.overlay-message').hide();
+  //     }, 3000);
+  //     $('form').trigger('reset');
+  //   });
+  //   return false;
+  // });
 
   new WOW().init();
 });
