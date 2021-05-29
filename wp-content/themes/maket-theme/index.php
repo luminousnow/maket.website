@@ -636,7 +636,7 @@
 			</div>
 			<!-- /.contacts  -->
 			<div class="map">
-				<script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abc64111efa18e9cd45b67a4899437e2ea575494fa0d59ee70708c66b4397775f&amp;width=100%25&amp;height=417&amp;lang=ru_RU&amp;scroll=false"></script>
+				<?php the_field('main_map'); ?>
 			</div>
 		</div>
 		<!-- /.Секция "Контакты" -->
